@@ -14,7 +14,7 @@ enum {
 
 var state = MOVE
 var velocity = Vector2.ZERO
-var dash_vector = Vector2.RIGHT
+var dash_vector = Vector2.DOWN
 
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
